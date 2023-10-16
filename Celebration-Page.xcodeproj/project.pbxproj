@@ -10,6 +10,8 @@
 		619300012ADD777100C1ADB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619300002ADD777100C1ADB6 /* ContentView.swift */; };
 		619300032ADD777200C1ADB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619300022ADD777200C1ADB6 /* Assets.xcassets */; };
 		619300062ADD777200C1ADB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619300052ADD777200C1ADB6 /* Preview Assets.xcassets */; };
+		6193000E2ADD77A000C1ADB6 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6193000D2ADD77A000C1ADB6 /* ConfettiSwiftUI */; };
+		619300112ADD796900C1ADB6 /* Ithra in Resources */ = {isa = PBXBuildFile; fileRef = 619300102ADD796900C1ADB6 /* Ithra */; };
 		6193FFFF2ADD777100C1ADB6 /* Celebration_PageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193FFFE2ADD777100C1ADB6 /* Celebration_PageApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +19,8 @@
 		619300002ADD777100C1ADB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		619300022ADD777200C1ADB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		619300052ADD777200C1ADB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		619300102ADD796900C1ADB6 /* Ithra */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ithra; path = "../../../../Downloads/Ithra Bold-2/Ithra"; sourceTree = "<group>"; };
+		619300122ADD798800C1ADB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6193FFFB2ADD777100C1ADB6 /* Celebration-Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Celebration-Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6193FFFE2ADD777100C1ADB6 /* Celebration_PageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celebration_PageApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6193000E2ADD77A000C1ADB6 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,14 @@
 				619300052ADD777200C1ADB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6193000F2ADD790200C1ADB6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				619300102ADD796900C1ADB6 /* Ithra */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		6193FFF22ADD777100C1ADB6 = {
@@ -59,6 +72,8 @@
 		6193FFFD2ADD777100C1ADB6 /* Celebration-Page */ = {
 			isa = PBXGroup;
 			children = (
+				619300122ADD798800C1ADB6 /* Info.plist */,
+				6193000F2ADD790200C1ADB6 /* Font */,
 				6193FFFE2ADD777100C1ADB6 /* Celebration_PageApp.swift */,
 				619300002ADD777100C1ADB6 /* ContentView.swift */,
 				619300022ADD777200C1ADB6 /* Assets.xcassets */,
@@ -83,6 +98,9 @@
 			dependencies = (
 			);
 			name = "Celebration-Page";
+			packageProductDependencies = (
+				6193000D2ADD77A000C1ADB6 /* ConfettiSwiftUI */,
+			);
 			productName = "Celebration-Page";
 			productReference = 6193FFFB2ADD777100C1ADB6 /* Celebration-Page.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +129,9 @@
 				Base,
 			);
 			mainGroup = 6193FFF22ADD777100C1ADB6;
+			packageReferences = (
+				6193000C2ADD77A000C1ADB6 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 6193FFFC2ADD777100C1ADB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +148,7 @@
 			files = (
 				619300062ADD777200C1ADB6 /* Preview Assets.xcassets in Resources */,
 				619300032ADD777200C1ADB6 /* Assets.xcassets in Resources */,
+				619300112ADD796900C1ADB6 /* Ithra in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,7 @@
 				DEVELOPMENT_TEAM = AX3H7XJNZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Celebration-Page/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +327,7 @@
 				DEVELOPMENT_TEAM = AX3H7XJNZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Celebration-Page/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6193000C2ADD77A000C1ADB6 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6193000D2ADD77A000C1ADB6 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6193000C2ADD77A000C1ADB6 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6193FFF32ADD777100C1ADB6 /* Project object */;
 }
